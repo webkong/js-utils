@@ -5,15 +5,15 @@ JavaScript utils library.
 
 ## Install
 ```
-npm install -S js-utils
+npm install -S js-utils-live
 ```
 
 ## Usage
 
 ```
-const {format} =  require('js-utils')
+const {format} =  require('js-utils-live')
 or
-import {format} from 'js-utils'
+import {format} from 'js-utils-live'
 
 ```
 ## License

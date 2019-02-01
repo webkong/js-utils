@@ -1,6 +1,6 @@
 {
-  "name": "js-utils",
-  "version": "0.0.1",
+  "name": "js-utils-live",
+  "version": "0.0.2",
   "description": "JavaScript utils library.",
   "main": "./lib/utils.common.js",
   "scripts": {
@@ -14,6 +14,10 @@
   "keywords": [
     "JavaScript",
     "utils",
+    "es5",
+    "es6",
+    "node",
+    "browser",
     "js"
   ],
   "author": {
