@@ -1,0 +1,39 @@
+{
+  "name": "js-utils",
+  "version": "0.0.1",
+  "description": "JavaScript utils library.",
+  "main": "./lib/utils.common.js",
+  "scripts": {
+    "build:umd": "webpack --config build/webpack.conf.umd.js",
+    "build:common": "webpack --config build/webpack.conf.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webkong/js-utils.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "utils",
+    "js"
+  ],
+  "author": {
+    "name": "webkong",
+    "email": "772930508@qq.com",
+    "url": "https://blog.webkong.cn"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webkong/js-utils/issues"
+  },
+  "homepage": "https://github.com/webkong/js-utils#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
