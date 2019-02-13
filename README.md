@@ -1,25 +1,31 @@
-## js-utils
+# js-utils
 
 JavaScript utils library.
 
+[List](./list.md);
 
 ## Install
-```
+
+```shell
 npm install -S js-utils-live
 ```
 
 ## Usage
 
-```
-const {format} =  require('js-utils-live')
-or
-import {format} from 'js-utils-live'
+```javascript
+const {date} =  require('js-utils-live')
 
+const {format} = date;
+
+or
+
+import {date} from 'js-utils-live'
+const {format} = date;
 ```
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
-
 
 ## Author
 

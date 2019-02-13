@@ -1,5 +1,5 @@
 /**
- * @description 将时间转换成指定格式
+ * @description Converts time into the specified format
  * @param {String|Number} time 
  * @param {String} fmt 
  */
@@ -26,7 +26,7 @@ function format(time, fmt) {
   return fmt;
 }
 /**
- * 
+ * @description Get zodiac
  * @param {String|Number} time 
  */
 function astro(time) {
@@ -48,7 +48,7 @@ function birthDays(time) {
 }
 
 /**
- * @description 把传入任意格式的时间，转化成（毫秒）时间戳
+ * @description Pass any format of the time, into a timestamp (milliseconds)
  * @param {String|Number} time
  */
 function timestamp(time) {
