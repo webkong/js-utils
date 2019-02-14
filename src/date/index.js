@@ -53,7 +53,7 @@ function birthDays(time) {
 
 /**
  * @name timestamp
- * @description Pass any format of the time, into a timestamp (milliseconds)中文字符（），。
+ * @description Pass any format of the time, into a timestamp (milliseconds)
  * @param {String|Number} time - To translate into the date of the timestamp
  * @return {Number}
  */
