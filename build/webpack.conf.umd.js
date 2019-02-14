@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path')
+const DocGenPlugin = require('webpack-docgen-plugin');
 const webpackConfig = {
   mode: 'production',
   entry: './src/index.js',
@@ -23,7 +24,13 @@ const webpackConfig = {
   },
   resolve: {
     extensions: [".js"]
-  }
+  },
+  plugins: [
+    new DocGenPlugin({
+      docFile: '../list.md',
+      dir: './src'
+    })
+  ]
 }
 
 module.exports = webpackConfig;

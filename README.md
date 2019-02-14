@@ -1,8 +1,8 @@
-# js-utils
+# js-utils-live
 
 JavaScript utils library.
 
-[List](./list.md);
+[Utils List](./list.md)
 
 ## Install
 
@@ -14,7 +14,6 @@ npm install -S js-utils-live
 
 ```javascript
 const {date} =  require('js-utils-live')
-
 const {format} = date;
 
 or

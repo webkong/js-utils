@@ -5,7 +5,8 @@
   "main": "./lib/utils.common.js",
   "scripts": {
     "build:umd": "webpack --config build/webpack.conf.umd.js",
-    "build:common": "webpack --config build/webpack.conf.common.js"
+    "build:common": "webpack --config build/webpack.conf.common.js",
+    "build": "npm-run-all build:umd build:common"
   },
   "repository": {
     "type": "git",
@@ -36,8 +37,11 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "npm-run-all": "^4.1.5",
     "webpack": "^4.28.1",
     "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
-  }
+    "webpack-dev-server": "^3.1.14",
+    "webpack-docgen-plugin": "0.0.3"
+  },
+  "dependencies": {}
 }

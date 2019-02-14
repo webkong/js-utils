@@ -1,7 +1,9 @@
 /**
+ * @name format
  * @description Converts time into the specified format
  * @param {String|Number} time 
- * @param {String} fmt 
+ * @param {String=} fmt
+ * @return {String}
  */
 function format(time, fmt) {
   fmt = fmt || 'yyyy-MM-dd';
@@ -26,8 +28,10 @@ function format(time, fmt) {
   return fmt;
 }
 /**
+ * @name astro
  * @description Get zodiac
- * @param {String|Number} time 
+ * @param {String|Number} time
+ * @return {String}
  */
 function astro(time) {
   time = timestamp(time);
@@ -48,8 +52,10 @@ function birthDays(time) {
 }
 
 /**
- * @description Pass any format of the time, into a timestamp (milliseconds)
- * @param {String|Number} time
+ * @name timestamp
+ * @description Pass any format of the time, into a timestamp (milliseconds)中文字符（），。
+ * @param {String|Number} time - To translate into the date of the timestamp
+ * @return {Number}
  */
 function timestamp(time) {
   if (!time) {

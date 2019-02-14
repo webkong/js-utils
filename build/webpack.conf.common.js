@@ -1,5 +1,5 @@
 const webpack = require('webpack');
-const path = require('path')
+const path = require('path');
 const webpackConfig = {
   mode: 'production',
   entry: './src/index.js',
