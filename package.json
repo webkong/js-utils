@@ -1,6 +1,6 @@
 {
   "name": "js-utils-live",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "JavaScript utils library.",
   "main": "./lib/utils.common.js",
   "scripts": {
@@ -41,7 +41,7 @@
     "webpack": "^4.28.1",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14",
-    "webpack-docgen-plugin": "0.0.3"
+    "webpack-docgen-plugin": "0.0.4"
   },
   "dependencies": {}
 }
